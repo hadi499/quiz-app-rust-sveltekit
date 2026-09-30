@@ -1,0 +1,4 @@
+CREATE TABLE IF NOT EXISTS blacklisted_tokens (
+    token VARCHAR(500) PRIMARY KEY,
+    expires_at TIMESTAMP WITH TIME ZONE NOT NULL
+);
